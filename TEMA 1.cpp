@@ -75,12 +75,12 @@ persoana::persoana(string nume="", int anul_nasterii=0, char sex=' ') {
     this->anul_nasterii = anul_nasterii;
     this->sex = sex;
 }
-/*persoana::persoana() {
+persoana::persoana() {
     nume = "n/a";
     anul_nasterii = 0;
     sex = '-';
-}*/
-/*class baza_de_date {
+}
+class baza_de_date {
 private:
     persoana *v; //vector de persoane
     persoana *vcpy;
@@ -341,11 +341,11 @@ void meniu() {
         system("cls");   ///Sterge continutul curent al consolei
     } while(optiune!=0);
 }
-*/
+
 int main() {
     ///meniul
 
-    //meniu();
+    meniu();
 
     ///testarea functiilor fara meniu
 
@@ -375,8 +375,8 @@ int main() {
 
     b.sort_varsta();
     b.afis();
-    */
+  
     persoana p1("Andreea",2000,'f');
-    cout<<p1;
+    cout<<p1;  */
     return 0;
 }
